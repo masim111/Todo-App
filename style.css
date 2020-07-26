@@ -1,0 +1,114 @@
+*{
+    margin: 0 auto;
+}
+body{
+    background:url('./todo.jpg');
+  /* width: 100% !important; */
+    background-repeat: no-repeat;
+    background-size: 1480px 900px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #e8edf1; */
+  }
+  
+  h2{
+      /* background-color: honeydew; */
+    text-align: center !important;
+    margin-bottom: 10px !important;
+    box-shadow: inset -3px -3px 5px rgba(255,255,255,0.9), inset 2px 2px 2px rgba(0,0,0,0.3) !important;
+    width: 300px;
+
+   
+}
+.rounded{
+    background-color: transparent;
+    text-align: center !important;
+    margin-bottom: 10px !important;
+    box-shadow: inset -3px -3px 5px rgba(255,255,255,0.9), inset 2px 2px 2px rgba(0,0,0,0.3) !important;
+    width: 300px;
+}
+
+
+
+.main{
+  
+text-align: center !important;
+/* text-shadow: blue !important; */
+}
+.li{
+    width: 200px;
+    
+}
+/* .class{
+    background-color: green !important;
+} */
+#ul{
+    list-style-type: upper-roman;
+    color: black;
+    margin: 0 auto;
+    width: 400px;
+    /* float: left; */
+    text-align: center !important;
+  
+    font-size: 18px;
+    font-weight: bold;
+    
+    word-wrap: break-word;
+     text-overflow: ellipsis;
+    /* text-transform: capitalize; */
+
+    font-weight: 600;
+	/* width: 150px; */
+    box-shadow: inset -3px -3px 5px rgba(255,255,255,0.9), inset 2px 2px 2px rgba(0,0,0,0.3);
+
+    text-align: center;
+    
+    font-size: 14pt;
+
+   
+
+}
+
+#input{
+    font-weight: 600;
+	width: 150px;
+    box-shadow: inset -3px -3px 5px rgba(255,255,255,0.9), inset 2px 2px 2px rgba(0,0,0,0.3);
+
+    text-align: center;
+    color: green;
+    
+    font-size: 14pt;
+
+}
+
+
+
+
+ 
+
+.keysBtn{
+/* color: rgb(28, 36, 61); */
+    /* width: 55px; */
+    height: 36px;
+    margin: 2px;
+    font-weight: 600;
+    font-size: medium;
+    border-radius: 20px;
+    border: none;
+    margin: 0px 10px 5px 0px;
+    box-shadow: inset -3px -3px 5px rgba(255,255,255,0.9), 
+    inset 2px 2px 2px rgba(0,0,0,0.3);
+}
+.keysBtn:focus{
+    outline: none;
+}
+.keysBtn :hover{
+    cursor: pointer;
+}
+ .keysBtn:active{
+    box-shadow: 
+      inset  2px 2px 5px #b3bac2,
+        -2px -2px 5px #fff;
+} 
